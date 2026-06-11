@@ -6,3 +6,15 @@ how to use - > see text.lua for examples.
 
 
 credits - > https://forum.cfx.re/t/tool-gfx-font-converter/4952616
+
+
+example - 
+
+```lua 
+local blip = AddBlipForCoord(-71.9285, -818.8057, 326.1752)
+SetBlipSprite(blip, 1)
+SetBlipColour(blip, 0)
+SetBlipAsShortRange(blip, true)
+BeginTextCommandSetBlipName("STRING")
+AddTextComponentSubstringPlayerName(exports.somis_hebrew:translate("הסקריפט עובד"))
+EndTextCommandSetBlipName(blip)```
