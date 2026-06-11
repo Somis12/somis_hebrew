@@ -1,4 +1,4 @@
-# somis_hebrew
+# somis_hebrew - fivem hebrew font
 hebrew font for fivem. 
 how to use - > see text.lua for examples.
 
