@@ -17,4 +17,5 @@ SetBlipColour(blip, 0)
 SetBlipAsShortRange(blip, true)
 BeginTextCommandSetBlipName("STRING")
 AddTextComponentSubstringPlayerName(exports.somis_hebrew:translate("הסקריפט עובד"))
-EndTextCommandSetBlipName(blip)```
+EndTextCommandSetBlipName(blip)
+```
